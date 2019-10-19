@@ -1,0 +1,26 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "个人文档记录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianwengao/doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianwengao/doc/issues"
+  },
+  "homepage": "https://github.com/tianwengao/doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
