@@ -1,8 +1,9 @@
  
 module.exports = {
+    base: '/doc/',
     title: '个人主页',
     description: '我的博客',
- 
+    dest: 'dist',
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
