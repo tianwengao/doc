@@ -1,4 +1,4 @@
-# Node.js初探
+# Node.js初探 测试
 Node.js是一个事件驱动，服务器端的JavaScript环境。Node结点用V8引擎运行JavaScript,通过自行开发的libuv库来调用操作系统资源，V8引擎是谷歌公司为他们的谷歌浏览器开发的。借助于V8，Node得以提供一个服务器端的运行环境来快速的编译和执行JavaScript语言。它速度的提升主要是因为V8把JavaScript编译为本地机器代码（直接解释执行），而不是编绎为字节码或中间代码（再解释执行）。Node.js是开源的，跨平台的，能够运行在Mac OSX，Windows和Linux等操作系统上。
 <!--more-->
 ## Node.js优点：
